@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e88c8693fb8bb38fe9a68caed13519076d05151")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d33c5d21396018dc7c9daecbbd6e742373bf423")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
