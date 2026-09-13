@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkTimeKapacityPlanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abf108c58c78f71cae5113bad944576b2cd2d7ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkTimeKapacityPlanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkTimeKapacityPlanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
