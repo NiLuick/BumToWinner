@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTimeKapacityPlanner", "WorkTimeKapacityPlanner\WorkTimeKapacityPlanner.csproj", "{F598BBF7-E7E3-431D-8B72-AC786964CFD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTimeKapacityPlanner", "WorkTimeKapacityPlanner\WorkTimeKapacityPlanner.csproj", "{D85FA4D3-4C33-4DC1-A069-016351EB6215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{99DA2C01-66D5-4E43-9E3B-346BFE193733}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{3F03A54C-F420-4457-8072-79890E1692F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F598BBF7-E7E3-431D-8B72-AC786964CFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F598BBF7-E7E3-431D-8B72-AC786964CFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F598BBF7-E7E3-431D-8B72-AC786964CFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F598BBF7-E7E3-431D-8B72-AC786964CFD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99DA2C01-66D5-4E43-9E3B-346BFE193733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99DA2C01-66D5-4E43-9E3B-346BFE193733}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99DA2C01-66D5-4E43-9E3B-346BFE193733}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99DA2C01-66D5-4E43-9E3B-346BFE193733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85FA4D3-4C33-4DC1-A069-016351EB6215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85FA4D3-4C33-4DC1-A069-016351EB6215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85FA4D3-4C33-4DC1-A069-016351EB6215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85FA4D3-4C33-4DC1-A069-016351EB6215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F03A54C-F420-4457-8072-79890E1692F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F03A54C-F420-4457-8072-79890E1692F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F03A54C-F420-4457-8072-79890E1692F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F03A54C-F420-4457-8072-79890E1692F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
