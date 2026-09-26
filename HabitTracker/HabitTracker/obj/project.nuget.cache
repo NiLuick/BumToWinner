@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VQfn8N7lge4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikla\\RiderProjects\\HabitTracker\\HabitTracker\\HabitTracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
