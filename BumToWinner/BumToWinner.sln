@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumToWinner", "BumToWinner\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{53DEC04A-F170-4CC7-8C19-D835B03C1D88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1A8434C3-EE9A-4C66-9198-F32E4FCE810B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{53DEC04A-F170-4CC7-8C19-D835B03C1D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DEC04A-F170-4CC7-8C19-D835B03C1D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53DEC04A-F170-4CC7-8C19-D835B03C1D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8434C3-EE9A-4C66-9198-F32E4FCE810B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8434C3-EE9A-4C66-9198-F32E4FCE810B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8434C3-EE9A-4C66-9198-F32E4FCE810B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8434C3-EE9A-4C66-9198-F32E4FCE810B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
