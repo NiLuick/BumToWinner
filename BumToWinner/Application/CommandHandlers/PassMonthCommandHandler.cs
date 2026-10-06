@@ -4,20 +4,20 @@ using Application.Interfaces;
 
 namespace Application.CommandHandlers;
 
-public class CommitSuicideCommandHandler : ICommandHandler<CommitSuicideCommand>
+public class PassMonthCommandHandler : ICommandHandler<PassMonthCommand>
 {
     private readonly IGameRepository _repository;
  
-    public CommitSuicideCommandHandler(IGameRepository repository)
+    public PassMonthCommandHandler(IGameRepository repository)
     {
         _repository = repository;
     }
  
-    public void Handle(CommitSuicideCommand command)
+    public void Handle(PassMonthCommand command)
     {
         var game = _repository.Get();
  
-        game.EndLife();
+        game.PassMonth();
  
         _repository.Save(game);
     }
