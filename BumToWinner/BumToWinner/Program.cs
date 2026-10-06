@@ -1,11 +1,20 @@
-﻿using Domain;
+﻿using System;
+using Domain;
 
 Console.WriteLine("Bum to Winner");
 Console.WriteLine("^^^^^^^^^^^^^\n");
 
 // Initial Settings
-Bum player = new Bum("Player Bum", 18, 0.00m, 100, 100, new Job(), new Housing(), 
-                     new Vehicle(), new Food(), new Education(), new Clothing("Naked", 0.00m)); 
+var street = new Housing("Street", 0.00m);
+var noVehicle = new Vehicle("None", 0.00m, 0.00m);
+var trash = new Food("Trash", 0.00m, -3, -3);
+var noEducation = new Education("None", "None", 0.00m, 0);
+var naked = new Clothing("Naked", 0.00m);
+
+var noJob = new Job("None", 0.00m, null, street, noVehicle, trash, noEducation, naked);
+
+Bum player = new Bum("Player Bum", 18, 0.00m, 100, 100, noJob, street, noVehicle, trash, 
+    noEducation, naked);
 
 // Selection Tool for Actions
 Console.WriteLine($"Weekly Actions (Player {player.Name}, Wealth {player.Wealth})\n");
