@@ -7,9 +7,9 @@ public class Education
     public decimal MonthlyExpenses { get; set; }    // Monthly Costs of the Education
     public int Duration { get; set; }               // Duration of the Education in Months
 
-    public Education (string descripiton, string degree, decimal monthlyExpenses, int duration)
+    public Education (string description, string degree, decimal monthlyExpenses, int duration)
     {
-        Description = descripiton;
+        Description = description;
         Degree = degree;
         MonthlyExpenses = monthlyExpenses;
         Duration = duration;
