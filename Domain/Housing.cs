@@ -1,0 +1,13 @@
+namespace Domain;
+
+public class Housing
+{
+    public string Description { get; set; }     // Description of the Housing
+    public decimal MonthlyRent { get; set; }    // Monthly Rent of the Housing
+
+    public Housing (string description, decimal monthlyRent)
+    {
+        Description = description;
+        MonthlyRent = monthlyRent;
+    }
+}
